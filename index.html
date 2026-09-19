@@ -1,235 +1,337 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Politique de confidentialité — IronEve</title>
-<style>
-  :root{
-    --framboise:#D6336C;
-    --or:#FFB020;
-    --creme:#FCF8F4;
-    --gris:#E3DBD3;
-    --texte:#2b2b2b;
-    --texte-doux:#5a5350;
-  }
-  *{box-sizing:border-box;}
-  body{
-    margin:0;
-    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
-    background:var(--creme);
-    color:var(--texte);
-    line-height:1.65;
-  }
-  .wrap{
-    max-width:760px;
-    margin:0 auto;
-    padding:48px 24px 80px;
-  }
-  header{
-    border-bottom:3px solid var(--framboise);
-    padding-bottom:24px;
-    margin-bottom:8px;
-  }
-  h1{
-    color:var(--framboise);
-    font-size:2rem;
-    margin:0 0 8px;
-  }
-  .sub{color:var(--texte-doux);font-size:0.95rem;margin:0;}
-  h2{
-    color:var(--framboise);
-    font-size:1.3rem;
-    margin-top:40px;
-    margin-bottom:12px;
-  }
-  h3{font-size:1.05rem;margin-top:24px;margin-bottom:6px;}
-  a{color:var(--framboise);}
-  ul{padding-left:22px;}
-  li{margin-bottom:6px;}
-  .highlight{
-    background:#fff;
-    border:1px solid var(--gris);
-    border-left:4px solid var(--or);
-    border-radius:8px;
-    padding:16px 20px;
-    margin:20px 0;
-  }
-  .delete-box{
-    background:#fff;
-    border:1px solid var(--gris);
-    border-left:4px solid var(--framboise);
-    border-radius:8px;
-    padding:16px 20px;
-    margin:20px 0;
-  }
-  table{
-    width:100%;
-    border-collapse:collapse;
-    margin:16px 0;
-    background:#fff;
-    border-radius:8px;
-    overflow:hidden;
-  }
-  th,td{
-    text-align:left;
-    padding:10px 14px;
-    border-bottom:1px solid var(--gris);
-    font-size:0.95rem;
-    vertical-align:top;
-  }
-  th{background:var(--gris);color:var(--texte);font-weight:600;}
-  tr:last-child td{border-bottom:none;}
-  footer{
-    margin-top:56px;
-    padding-top:24px;
-    border-top:1px solid var(--gris);
-    color:var(--texte-doux);
-    font-size:0.88rem;
-  }
-  code{
-    background:var(--gris);
-    padding:2px 6px;
-    border-radius:4px;
-    font-size:0.9em;
-  }
-</style>
-</head>
-<body>
-<div class="wrap">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IronEve — Politique de confidentialité</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+      body {
+        margin: 0;
+        padding: 24px 16px 48px;
+        font:
+          16px/1.55 -apple-system,
+          "Segoe UI",
+          Roboto,
+          sans-serif;
+        color: #1f1a17;
+        background: #fcf8f4;
+      }
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+      }
+      h1 {
+        color: #d6336c;
+        font-size: 28px;
+        margin: 0 0 4px;
+      }
+      h2 {
+        font-size: 20px;
+        margin-top: 32px;
+        border-bottom: 1px solid #e8dfd8;
+        padding-bottom: 6px;
+      }
+      h3 {
+        font-size: 17px;
+        margin-top: 20px;
+      }
+      .meta {
+        color: #6b625c;
+        margin-bottom: 24px;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 12px 0;
+        font-size: 15px;
+      }
+      th,
+      td {
+        text-align: left;
+        vertical-align: top;
+        padding: 8px 10px;
+        border: 1px solid #e8dfd8;
+      }
+      th {
+        background: #f5ede7;
+      }
+      .todo {
+        background: #fff3cd;
+        border: 1px solid #f0d48a;
+        padding: 8px 12px;
+        border-radius: 8px;
+      }
+      hr.lang {
+        margin: 48px 0;
+        border: 0;
+        border-top: 2px solid #e8dfd8;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>IronEve — Politique de confidentialité</h1>
+      <p class="meta">
+        Dernière mise à jour : 15 septembre 2026 · Application Android
+        <code>com.tonnage.workout</code>
+      </p>
 
-<header>
-  <h1>Politique de confidentialité</h1>
-  <p class="sub">Application <strong>IronEve</strong>, éditée par <strong>HEROXEL</strong> — Dernière mise à jour : 25 juin 2026</p>
-</header>
+      <p>
+        IronEve est un carnet d'entraînement <strong>hors ligne</strong> : tes
+        séances, routines et records sont enregistrés sur ton téléphone. Cette
+        page explique quelles données quittent l'appareil, pourquoi, et comment
+        t'y opposer.
+      </p>
 
-<p>
-La présente politique explique quelles données IronEve collecte, pourquoi, comment elles
-sont protégées, et les droits dont tu disposes. Nous attachons une grande importance à ta
-vie privée et à la transparence sur l'usage de tes données.
-</p>
+      <h2>1. Ce qui reste sur ton téléphone</h2>
+      <p>
+        Toutes tes données d'entraînement (routines, séances, séries, charges,
+        répétitions, records, préférences) sont stockées localement. Sans compte
+        ni abonnement, <strong>rien n'est transmis à nos serveurs</strong>.
+      </p>
 
-<div class="highlight">
-IronEve fonctionne en priorité <strong>hors ligne</strong> : tu peux utiliser l'application,
-créer des routines et enregistrer tes séances <strong>sans créer de compte</strong>. Tes
-données restent alors uniquement sur ton appareil. La collecte décrite ci-dessous ne
-concerne que les fonctionnalités de <strong>compte</strong> et de <strong>synchronisation</strong>.
-</div>
+      <h2>2. Ce qui est collecté, et pourquoi</h2>
+      <table>
+        <tr>
+          <th>Donnée</th>
+          <th>Quand</th>
+          <th>Pourquoi</th>
+          <th>Destinataire</th>
+        </tr>
+        <tr>
+          <td>Adresse e-mail (ou identité Google) et identifiant de compte</td>
+          <td>Uniquement si tu crées un compte (facultatif)</td>
+          <td>
+            Retrouver ton abonnement et tes données sur tous tes appareils
+          </td>
+          <td>Firebase Authentication (Google)</td>
+        </tr>
+        <tr>
+          <td>
+            Données d'entraînement (routines, séances, séries, records,
+            préférences)
+          </td>
+          <td>
+            Uniquement si tu es abonnée <em>IronEve Plus</em> et connectée
+          </td>
+          <td>Sauvegarde et synchronisation entre appareils</td>
+          <td>
+            Notre serveur, hébergé par Scaleway en France (Union européenne)
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Identifiant d'abonnement et état de l'achat (jamais tes données
+            bancaires)
+          </td>
+          <td>Si tu souscris un abonnement</td>
+          <td>Activer et vérifier ton accès Plus</td>
+          <td>Google Play Billing, RevenueCat</td>
+        </tr>
+        <tr>
+          <td>
+            Statistiques d'usage anonymes : écrans vus, boutons tapés, séances
+            commencées/terminées (compteurs), erreurs de l'application, modèle
+            et version d'Android, identifiant d'installation généré par Google
+          </td>
+          <td>En continu, sauf désactivation (voir §4)</td>
+          <td>
+            Comprendre comment l'application est utilisée et corriger ce qui ne
+            marche pas
+          </td>
+          <td>Google Analytics for Firebase</td>
+        </tr>
+      </table>
 
-<h2>1. Qui est responsable de tes données ?</h2>
-<p>
-Le responsable du traitement est <strong>HEROXEL</strong>, éditeur de l'application IronEve.
-Pour toute question relative à tes données personnelles, tu peux nous contacter à&nbsp;:
-<a href="mailto:contact@apps.heroxel.com">contact@apps.heroxel.com</a>.
-</p>
+      <p>
+        <strong>Ce que la mesure d'audience ne contient jamais</strong> : ton
+        e-mail, ton identifiant de compte, le nom de tes routines, les charges
+        que tu soulèves, ni aucun texte saisi. Uniquement des compteurs et des
+        catégories. L'application
+        <strong>ne collecte pas l'identifiant publicitaire</strong> Android et
+        ne contient aucune publicité.
+      </p>
 
-<h2>2. Quelles données collectons-nous ?</h2>
-<p>
-Si tu choisis de <strong>créer un compte</strong> (nécessaire pour la sauvegarde et la
-synchronisation, réservées aux abonnées), nous collectons&nbsp;:
-</p>
+      <h2>3. Partage</h2>
+      <p>
+        Nous ne vendons ni ne louons aucune donnée. Les seuls tiers qui en
+        traitent sont les sous-traitants techniques cités ci-dessus (Google
+        Firebase, Google Play, RevenueCat, Scaleway), chacun pour la finalité
+        indiquée et selon ses propres conditions.
+      </p>
 
-<table>
-  <tr><th>Donnée</th><th>Pourquoi</th></tr>
-  <tr>
-    <td>Adresse e-mail</td>
-    <td>Créer et sécuriser ton compte, te permettre de te connecter, récupérer ton accès.</td>
-  </tr>
-  <tr>
-    <td>Identifiant de compte</td>
-    <td>Identifiant technique unique rattachant tes données à ton compte.</td>
-  </tr>
-  <tr>
-    <td>Données d'entraînement (routines, séances, séries, records, préférences)</td>
-    <td>Sauvegarder tes données et les synchroniser entre tes appareils.</td>
-  </tr>
-</table>
+      <h2>4. Tes choix</h2>
+      <ul>
+        <li>
+          <strong>Mesure d'audience</strong> : désactivable à tout moment dans
+          <em>Profil → Confidentialité → Mesure d'audience</em>. Le réglage est
+          respecté dès le lancement suivant, pour tout le monde, quel que soit
+          le pays.
+        </li>
+        <li>
+          <strong>Compte</strong> : facultatif. L'application est entièrement
+          utilisable sans.
+        </li>
+        <li>
+          <strong>Suppression</strong> :
+          <em>Profil → Supprimer mon compte</em> efface définitivement ton
+          compte et toutes tes données sur nos serveurs et sur l'appareil. Les
+          données locales d'une utilisatrice sans compte se suppriment en
+          désinstallant l'application ou en effaçant ses données dans Android.
+        </li>
+        <li>
+          <strong>Abonnement</strong> : géré et résiliable dans
+          <em>Google Play → Abonnements</em>. Supprimer le compte n'annule pas
+          l'abonnement.
+        </li>
+      </ul>
 
-<p>
-L'authentification est assurée par <strong>Firebase Authentication</strong> (Google). Tu peux
-créer ton compte par e-mail/mot de passe ou via <strong>Google Sign-In</strong>.
-</p>
+      <h2>5. Conservation</h2>
+      <p>
+        Les données du compte et de synchronisation sont conservées tant que le
+        compte existe, puis supprimées à la demande de suppression. Les
+        statistiques d'usage sont conservées 14 mois au maximum par Google
+        Analytics for Firebase.
+      </p>
 
-<h3>Paiements</h3>
-<p>
-Les abonnements sont gérés par <strong>Google Play</strong> et le service
-<strong>RevenueCat</strong>. Nous ne recevons, ne voyons et ne stockons
-<strong>jamais</strong> tes informations de paiement (carte bancaire). Seul le statut de ton
-abonnement (actif ou non) nous est communiqué pour débloquer les fonctionnalités premium.
-</p>
+      <h2>6. Tes droits (RGPD)</h2>
+      <p>
+        Accès, rectification, effacement, limitation, portabilité et opposition.
+        La plupart s'exercent directement dans l'application (§4). Pour le
+        reste, écris-nous à l'adresse ci-dessous. Tu peux aussi saisir la CNIL.
+      </p>
 
-<h3>Ce que nous ne faisons pas</h3>
-<ul>
-  <li>Pas de publicité dans l'application.</li>
-  <li>Pas de traçage publicitaire ni de profilage.</li>
-  <li>Aucune revente ni partage de tes données à des tiers à des fins commerciales.</li>
-</ul>
+      <h2>7. Contact</h2>
+      <p>
+        HEROXEL —
+        <a href="mailto:contact@apps.heroxel.com">contact@apps.heroxel.com</a>
+      </p>
 
-<h2>3. Où et comment tes données sont-elles stockées ?</h2>
-<p>
-Tes données de synchronisation sont hébergées chez <strong>Scaleway</strong>, sur des
-serveurs situés en <strong>France (région de Paris), au sein de l'Union européenne</strong>.
-Les échanges entre l'application et nos serveurs sont <strong>chiffrés en transit (HTTPS/TLS)</strong>.
-</p>
+      <hr class="lang" />
 
-<h2>4. Sur quelle base et combien de temps ?</h2>
-<p>
-Nous traitons tes données pour exécuter le service que tu demandes (ton compte et la
-synchronisation) et sur la base de ton consentement lorsque tu crées un compte. Tes données
-sont conservées tant que ton compte existe. Lorsque tu supprimes ton compte, elles sont
-<strong>effacées</strong> (voir section&nbsp;6).
-</p>
+      <h1>IronEve — Privacy Policy</h1>
+      <p class="meta">
+        Last updated: September 15, 2026 · Android app
+        <code>com.tonnage.workout</code>
+      </p>
 
-<h2>5. Tes droits</h2>
-<p>
-Conformément au Règlement général sur la protection des données (RGPD), tu disposes d'un
-droit d'accès, de rectification, d'effacement, de portabilité et d'opposition concernant tes
-données. Pour exercer ces droits, écris-nous à
-<a href="mailto:contact@apps.heroxel.com">contact@apps.heroxel.com</a>.
-</p>
+      <p>
+        IronEve is an <strong>offline-first</strong> workout log: your workouts,
+        routines and records are stored on your phone. This page explains which
+        data leaves the device, why, and how to opt out.
+      </p>
 
-<h2>6. Supprimer ton compte et tes données</h2>
-<div class="delete-box">
-  <p style="margin-top:0;">
-    Tu peux <strong>supprimer ton compte et l'ensemble de tes données à tout moment,
-    directement depuis l'application</strong>&nbsp;:
-  </p>
-  <p style="margin-bottom:0;">
-    Ouvre IronEve → <strong>Profil / Réglages</strong> → <strong>« Supprimer mon compte »</strong>,
-    puis confirme.
-  </p>
-</div>
-<p>Cette action est <strong>irréversible</strong> et supprime définitivement&nbsp;:</p>
-<ul>
-  <li>ton compte (ton adresse e-mail et ton identifiant) ;</li>
-  <li>toutes tes données d'entraînement stockées sur nos serveurs (routines, séances, séries, records, préférences) ;</li>
-  <li>les données stockées localement sur l'appareil utilisé.</li>
-</ul>
-<p>
-Si tu ne parviens pas à utiliser cette fonction, tu peux nous demander la suppression par
-e-mail à <a href="mailto:contact@apps.heroxel.com">contact@apps.heroxel.com</a> ; nous
-traiterons ta demande dans les meilleurs délais.
-</p>
+      <h2>1. What stays on your phone</h2>
+      <p>
+        All your training data (routines, workouts, sets, weights, reps,
+        records, preferences) is stored locally. Without an account or
+        subscription, <strong>nothing is sent to our servers</strong>.
+      </p>
 
-<h2>7. Données des mineurs</h2>
-<p>
-IronEve n'est pas destinée aux enfants et ne collecte pas sciemment de données concernant des
-personnes mineures sans le consentement approprié.
-</p>
+      <h2>2. What is collected, and why</h2>
+      <table>
+        <tr>
+          <th>Data</th>
+          <th>When</th>
+          <th>Why</th>
+          <th>Recipient</th>
+        </tr>
+        <tr>
+          <td>Email address (or Google identity) and account ID</td>
+          <td>Only if you create an (optional) account</td>
+          <td>Find your subscription and data on all your devices</td>
+          <td>Firebase Authentication (Google)</td>
+        </tr>
+        <tr>
+          <td>
+            Training data (routines, workouts, sets, records, preferences)
+          </td>
+          <td>Only if you subscribe to <em>IronEve Plus</em> and sign in</td>
+          <td>Backup and multi-device sync</td>
+          <td>Our server, hosted by Scaleway in France (EU)</td>
+        </tr>
+        <tr>
+          <td>
+            Subscription ID and purchase state (never your payment details)
+          </td>
+          <td>If you subscribe</td>
+          <td>Activate and verify your Plus access</td>
+          <td>Google Play Billing, RevenueCat</td>
+        </tr>
+        <tr>
+          <td>
+            Anonymous usage statistics: screens viewed, buttons tapped, workouts
+            started/finished (counters), app errors, Android model and version,
+            a Google-generated installation ID
+          </td>
+          <td>Continuously, unless disabled (see §4)</td>
+          <td>Understand how the app is used and fix what breaks</td>
+          <td>Google Analytics for Firebase</td>
+        </tr>
+      </table>
+      <p>
+        <strong>What analytics never contains</strong>: your email, account ID,
+        routine names, the weights you lift, or any typed text — only counters
+        and categories. The app
+        <strong>does not collect the Android advertising ID</strong> and shows
+        no ads.
+      </p>
 
-<h2>8. Modifications de cette politique</h2> 
-<p>
-Cette politique peut être mise à jour pour refléter des évolutions de l'application ou de la
-réglementation. La date de dernière mise à jour figure en haut de cette page.
-</p>
+      <h2>3. Sharing</h2>
+      <p>
+        We never sell or rent data. The only third parties processing it are the
+        technical providers listed above (Google Firebase, Google Play,
+        RevenueCat, Scaleway), each for the stated purpose.
+      </p>
 
-<footer>
-  <p>
-    <strong>IronEve</strong> — édité par <strong>HEROXEL</strong><br>
-    Contact&nbsp;: <a href="mailto:contact@apps.heroxel.com">contact@apps.heroxel.com</a>
-  </p>
-</footer>
+      <h2>4. Your choices</h2>
+      <ul>
+        <li>
+          <strong>Analytics</strong>: turn it off any time in
+          <em>Profile → Privacy → Analytics</em>. Honored from the next launch,
+          for everyone, in every country.
+        </li>
+        <li>
+          <strong>Account</strong>: optional. The app is fully usable without
+          one.
+        </li>
+        <li>
+          <strong>Deletion</strong>:
+          <em>Profile → Delete my account</em> permanently erases your account
+          and all data on our servers and on the device. Local data of a user
+          without an account is removed by uninstalling the app or clearing its
+          data in Android.
+        </li>
+        <li>
+          <strong>Subscription</strong>: managed and cancelled in
+          <em>Google Play => Subscriptions</em>. Deleting the account does not
+          cancel the subscription.
+        </li>
+      </ul>
 
-</div>
-</body>
+      <h2>5. Retention</h2>
+      <p>
+        Account and sync data are kept as long as the account exists, then
+        deleted on request. Usage statistics are kept for at most 14 months by
+        Google Analytics for Firebase.
+      </p>
+
+      <h2>6. Your rights (GDPR)</h2>
+      <p>
+        Access, rectification, erasure, restriction, portability and objection.
+        Most are exercised directly in the app (§4); for the rest, contact us
+        below. You may also lodge a complaint with your data protection
+        authority.
+      </p>
+
+      <h2>7. Contact</h2>
+      <p>
+        HEROXEL —
+        <a href="mailto:contact@apps.heroxel.com">contact@apps.heroxel.com</a>
+      </p>
+    </main>
+  </body>
 </html>
